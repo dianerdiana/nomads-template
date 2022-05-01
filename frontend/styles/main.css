@@ -264,4 +264,63 @@ header .btn-get-started:hover {
   font-weight: bold;
   color: #071C4D;
 }
+
+.card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.card-details h1 {
+  font-size: 26px;
+}
+
+.card-details h2 {
+  font-size: 20px;
+}
+
+.card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.card-details .features {
+  margin-top: 20px;
+}
+
+.card-details .features h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #071C4D;
+}
+
+.card-details .features p {
+  margin-bottom: 0;
+}
+
+.card-details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.card-details .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+
+.gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.gallery .xzoom-container .xactive {
+  border: 8px solid #1ABC9C;
+}
 /*# sourceMappingURL=main.css.map */
