@@ -1,0 +1,293 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
+// Navbar
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      margin: 0 3px;
+      font-size: 20px;
+      color: #071C4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071C4D !important;
+      }
+    }
+  }
+}
+
+.btn-navbar-right {
+  margin-right: -16px !important;
+
+  height: 60px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #ffffff;
+  font-size: 20px;
+
+  &:hover {
+    background-color: #162b5c;
+    color: #ffffff;
+
+  }
+}
+
+// Header
+header {
+  padding: 180px 0 165px;
+  margin-top: -60px;
+  background-image: url("../assets/images/header.jpg");
+  background-size: cover;
+
+  h1, p {
+    color: #ffffff;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: #FF9E53;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #ffae70;
+      color: #ffffff;
+    }
+  }
+}
+
+// Statistic 
+
+.section-stats {
+  margin-top: -50px;
+
+  .stats-detail {
+    padding-top: 10px;
+    background-color: #ffffff;
+    padding-left: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+  }
+}
+
+// Wisata
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+  .section-popular-heading {
+    margin-top: 150px;
+
+    h2, p {
+      color: #ffffff;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      min-height: 380px;
+      background-color: #ddd;
+      color: #ffffff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .travel-country {
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    .travel-location {
+      font-size: 24px;
+      color: #ffffff;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: #FF9E53;
+        color: #ffffff;
+
+        &:hover {
+          background-color: #ffa866;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+// Section Networks
+.section-networks {
+  background-color: #ffffff;
+  margin-top: -190px;
+  padding-top: 260px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.section-testimonial-heading {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(247,249,255,1) 100%);
+  padding-top: 50px;
+  min-height: 506px;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+  
+
+    .testimonial-content {
+      min-height: 380px;
+    
+
+      h3 {
+        font-size: 22px;
+      }
+
+      .testimonial {
+        font-size: 26px;
+        color: #6E6E6E;
+        font-weight: 200;
+        min-height: 180px;
+      }
+
+      .trip-to {
+        font-size: 22px;
+        color: #6E6E6E;
+        font-weight: normal;
+      }
+    }
+    hr {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+
+  .btn-get-started {
+    background-color: #FF9E53;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #ffae70;
+      color: #ffffff;
+    }
+  }
+
+  .btn-need-help {
+    background-color: #F2F2F2;
+    color: #C3C3C3;
+
+    &:hover {
+      background-color: #d9d9d9;
+      color: #C3C3C3;
+    }
+  }
+}
+
+// Footer 
+
+.section-footer {
+  a {
+    color: #071C4D;
+    text-decoration: none;
+  }
+} 
+
+// Details Page
+.section-details-header {
+  min-height: 310px;
+  margin-top: -60px;
+  background-color: #E4E6EB;
+}
+
+.section-details-contents {
+  margin-top: -210px;
+  min-height: 100vh;
+  
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071C4D;
+    }
+  }
+}
