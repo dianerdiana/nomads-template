@@ -309,6 +309,11 @@ header .btn-get-started:hover {
   float: left;
 }
 
+.card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .gallery .xzoom-container {
   display: block;
 }
@@ -322,5 +327,35 @@ header .btn-get-started:hover {
 
 .gallery .xzoom-container .xactive {
   border: 8px solid #1ABC9C;
+}
+
+.member .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.trip-information .thead {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.trip-information .tcell {
+  font-size: 18px;
+  color: #707070;
+}
+
+.join-container {
+  margin-top: -16px;
+}
+
+.join-container .btn-join-now {
+  background-color: #FF9E53;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.join-container .btn-join-now:hover {
+  background-color: #ffb67f;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
