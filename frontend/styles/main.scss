@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: 'Assistant', sans-serif;
-  color: #071C4D;
+  color: #071c4d;
 }
 
 // Navbar
@@ -16,11 +16,11 @@ body {
     .nav-link {
       margin: 0 3px;
       font-size: 20px;
-      color: #071C4D;
+      color: #071c4d;
 
       &.active {
         font-weight: bold;
-        color: #071C4D !important;
+        color: #071c4d !important;
       }
     }
   }
@@ -34,14 +34,13 @@ body {
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #ffffff;
   font-size: 20px;
 
   &:hover {
     background-color: #162b5c;
     color: #ffffff;
-
   }
 }
 
@@ -49,10 +48,11 @@ body {
 header {
   padding: 180px 0 165px;
   margin-top: -60px;
-  background-image: url("../assets/images/header.jpg");
+  background-image: url('../assets/images/header.jpg');
   background-size: cover;
 
-  h1, p {
+  h1,
+  p {
     color: #ffffff;
   }
 
@@ -67,7 +67,7 @@ header {
   }
 
   .btn-get-started {
-    background-color: #FF9E53;
+    background-color: #ff9e53;
     color: #ffffff;
 
     &:hover {
@@ -77,7 +77,7 @@ header {
   }
 }
 
-// Statistic 
+// Statistic
 
 .section-stats {
   margin-top: -50px;
@@ -110,7 +110,8 @@ header {
   .section-popular-heading {
     margin-top: 150px;
 
-    h2, p {
+    h2,
+    p {
       color: #ffffff;
     }
 
@@ -149,7 +150,7 @@ header {
 
     .travel-button {
       .btn-travel-details {
-        background-color: #FF9E53;
+        background-color: #ff9e53;
         color: #ffffff;
 
         &:hover {
@@ -184,8 +185,12 @@ header {
 }
 
 .section-testimonial-heading {
-  background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(247,249,255,1) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(247, 249, 255, 1) 100%
+  );
   padding-top: 50px;
   min-height: 506px;
 
@@ -208,11 +213,9 @@ header {
     padding: 40px 20px 10px;
     border-radius: 11px;
     margin-bottom: 20px;
-  
 
     .testimonial-content {
       min-height: 380px;
-    
 
       h3 {
         font-size: 22px;
@@ -220,14 +223,14 @@ header {
 
       .testimonial {
         font-size: 26px;
-        color: #6E6E6E;
+        color: #6e6e6e;
         font-weight: 200;
         min-height: 180px;
       }
 
       .trip-to {
         font-size: 22px;
-        color: #6E6E6E;
+        color: #6e6e6e;
         font-weight: normal;
       }
     }
@@ -238,7 +241,7 @@ header {
   }
 
   .btn-get-started {
-    background-color: #FF9E53;
+    background-color: #ff9e53;
     color: #ffffff;
 
     &:hover {
@@ -248,36 +251,36 @@ header {
   }
 
   .btn-need-help {
-    background-color: #F2F2F2;
-    color: #C3C3C3;
+    background-color: #f2f2f2;
+    color: #c3c3c3;
 
     &:hover {
       background-color: #d9d9d9;
-      color: #C3C3C3;
+      color: #c3c3c3;
     }
   }
 }
 
-// Footer 
+// Footer
 
 .section-footer {
   a {
-    color: #071C4D;
+    color: #071c4d;
     text-decoration: none;
   }
-} 
+}
 
 // Details Page
 .section-details-header {
   min-height: 310px;
   margin-top: -60px;
-  background-color: #E4E6EB;
+  background-color: #e4e6eb;
 }
 
 .section-details-contents {
   margin-top: -210px;
   min-height: 100vh;
-  
+
   .breadcrumb {
     background-color: transparent;
     padding: 0;
@@ -287,7 +290,7 @@ header {
   .breadcrumb-item {
     &.active {
       font-weight: bold;
-      color: #071C4D;
+      color: #071c4d;
     }
   }
 }
@@ -317,7 +320,7 @@ header {
     h3 {
       font-size: 18px;
       margin-bottom: 0;
-      color: #071C4D;
+      color: #071c4d;
     }
 
     p {
@@ -335,7 +338,53 @@ header {
       height: 45px;
       float: left;
     }
+  }
 
+  .trip-informations {
+    th {
+      font-weight: 500;
+      font-size: 18px;
+      color: #071c4d;
+    }
+
+    td {
+      font-weight: 300;
+      color: #b1b1b1;
+    }
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #071c4d;
+  }
+
+  .disclaimer {
+    font-weight: 300;
+    font-size: 14px;
+    color: #b1b1b1;
+  }
+
+  .gj-datepicker {
+    .datepicker {
+      border-right: 0;
+    }
+
+    .input-group-append {
+      .btn {
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .btn-add-now {
+    background-color: #071c4d;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #162b5c;
+      color: #ffffff;
+    }
   }
 }
 
@@ -357,7 +406,7 @@ header {
     }
 
     .xactive {
-      border: 8px solid #1ABC9C;
+      border: 8px solid #1abc9c;
     }
   }
 }
@@ -386,7 +435,7 @@ header {
   margin-top: -16px;
 
   .btn-join-now {
-    background-color: #FF9E53;
+    background-color: #ff9e53;
     color: #ffffff;
     border-radius: 0;
 

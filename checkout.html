@@ -12,6 +12,7 @@
       href="./frontend/libraries/bootstrap/css/bootstrap.css"
     />
     <link rel="stylesheet" href="./frontend/libraries/xzoom/xzoom.css" />
+    <link rel="stylesheet" href="./frontend/libraries/gijgo/css/gijgo.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -22,7 +23,7 @@
     <!-- Navbar -->
 
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white px-3 py-0">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white px-3 py-1">
         <div class="navbar-nav ms-auto me-auto me-sm-auto me-lg-0 me-md-auto">
           <a href="index.html" class="navbar-brand">
             <img src="./frontend/assets/icons/logo_nomads.png" />
@@ -43,7 +44,7 @@
       <section class="section-details-contents">
         <div class="container">
           <div class="row">
-            <div class="col p-0">
+            <div class="col">
               <nav>
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item">Paket Travel</li>
@@ -54,35 +55,121 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-8 pl-lg-0">
+            <div class="col-lg-8 pl-lg-0 mb-md-2">
               <div class="card card-details">
-                <h1>Nusa Peninda</h1>
-                <p>Republic of Indonesia Raya</p>
+                <h1>Who is going?</h1>
+                <p>Trip to Ubud, Bali, Indonesia</p>
+                <div class="attendance">
+                  <table class="table table-responsive-sm text-center">
+                    <thead>
+                      <tr>
+                        <td>Picture</td>
+                        <td>Name</td>
+                        <td>Nationality</td>
+                        <td>Visa</td>
+                        <td>Passport</td>
+                        <td></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img
+                            src="./frontend/assets/images/avatar-4.png"
+                            height="60px"
+                          />
+                        </td>
+                        <td class="align-middle">Angga Risky</td>
+                        <td class="align-middle">CN</td>
+                        <td class="align-middle">N/A</td>
+                        <td class="align-middle">Active</td>
+                        <td class="align-middle">
+                          <a href="#">
+                            <img src="./frontend/assets/icons/ic_remove.png" />
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <img
+                            src="./frontend/assets/images/avatar-5.png"
+                            height="60px"
+                          />
+                        </td>
+                        <td class="align-middle">Galih Pratama</td>
+                        <td class="align-middle">SG</td>
+                        <td class="align-middle">30 Days</td>
+                        <td class="align-middle">Active</td>
+                        <td class="align-middle">
+                          <a href="#">
+                            <img src="./frontend/assets/icons/ic_remove.png" />
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="member mt-3">
+                  <h2>Add Member</h2>
+                  <form action="" class="row">
+                    <div class="col">
+                      <label for="inputUsername" class="visually-hidden">
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        name="inputUsername"
+                        placeholder="Username"
+                        id="inputUsername"
+                        class="form-control mb-2 mr-sm-2"
+                      />
+                    </div>
+
+                    <div class="col-2">
+                      <label for="inputVisa" class="visually-hidden"
+                        >Visa</label
+                      >
+                      <select
+                        name="inputVisa"
+                        id="inputVisa"
+                        class="form-select mb-2 mr-sm-2"
+                      >
+                        <option value="VISA" selected>Visa</option>
+                        <option value="30 Days">30 Days</option>
+                        <option value="N/A">N/A</option>
+                      </select>
+                    </div>
+
+                    <div class="col">
+                      <label for="doePassport" class="visually-hidden">
+                        DOE Passport
+                      </label>
+                      <div class="input-group mb-2 mr-sm-2">
+                        <input
+                          type="text"
+                          id="doePassport"
+                          name="doePassport"
+                          placeholder="DOE Passport"
+                          class="form-control datepicker"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <button class="btn btn-add-now mb-2 px-4">Add Now</button>
+                    </div>
+                  </form>
+
+                  <h3 class="mt-2 mb-0">Note</h3>
+                  <p class="disclaimer mb-0">
+                    You are only able to invite member that has registered in
+                    Nomads.
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="card card-details card-right">
-                <h2>Members are going</h2>
-                <div class="members my-2">
-                  <img
-                    src="./frontend/assets/images/profile-1.png"
-                    class="member-image me-0"
-                  />
-                  <img
-                    src="./frontend/assets/images/profile-2.png"
-                    class="member-image me-1"
-                  /><img
-                    src="./frontend/assets/images/profile-3.png"
-                    class="member-image me-1"
-                  /><img
-                    src="./frontend/assets/images/profile-4.png"
-                    class="member-image me-1"
-                  /><img
-                    src="./frontend/assets/images/profile-5.png"
-                    class="member-image me-1"
-                  />
-                </div>
-                <hr />
                 <h2>Trip Informations</h2>
                 <table class="trip-informations">
                   <tr>
@@ -102,6 +189,21 @@
                     <td width="50%" class="text-end tcell">$80.00 / person</td>
                   </tr>
                 </table>
+                <hr />
+                <h2>Payment Instructions</h2>
+                <p>
+                  Please complete your payment before to continue the wonderful
+                  trip.
+                </p>
+                <div class="bank">
+                  <div class="bank-item pb-3">
+                    <img
+                      src="./frontend/assets/icons/ic_bank.png"
+                      alt=""
+                      class="bank-image"
+                    />
+                  </div>
+                </div>
               </div>
               <div class="join-container d-grid gap-2">
                 <a href="#" class="btn btn-block btn-join-now mt-3 py-2">
@@ -171,15 +273,23 @@
     <script src="./frontend/libraries/bootstrap/js/bootstrap.js"></script>
     <script src="./frontend/libraries/retina/retina.min.js"></script>
     <script src="./frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="./frontend/libraries/gijgo/js/gijgo.min.js"></script>
     <script>
       $(document).ready(function () {
-        $(".xzoom, .xzoom-gallery").xzoom({
+        $('.xzoom, .xzoom-gallery').xzoom({
           zoomWidth: 500,
           title: false,
-          tint: "#333",
+          tint: '#333',
           Xoffset: 15,
-        });
-      });
+        })
+      })
+
+      $('.datepicker').datepicker({
+        uiLibrary: 'bootstrap4',
+        icons: {
+          rightIcon: `<img src='./frontend/assets/icons/ic_doe.png' />`,
+        },
+      })
     </script>
   </body>
 </html>
