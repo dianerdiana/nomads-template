@@ -4,6 +4,13 @@ body {
   color: #071c4d;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 .navbar-brand img {
   max-height: 40px;
 }
@@ -266,17 +273,53 @@ header .btn-get-started:hover {
   height: 45px;
   float: left;
 }
-.card-details .trip-informations th {
-  font-weight: 500;
+.card-details .checkout-informations th {
+  font-weight: 400;
   font-size: 18px;
   color: #071c4d;
 }
-.card-details .trip-informations td {
+.card-details .checkout-informations td {
   font-weight: 300;
   color: #b1b1b1;
 }
+.card-details .checkout-informations .text-blue {
+  color: #071c4d;
+  font-weight: bold;
+}
+.card-details .checkout-informations .text-orange {
+  color: #ff9e53;
+  font-weight: bold;
+}
+.card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+.card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+.card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+.card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.card-details .bank .bank-item .description p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #071c4d;
+}
+.card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
 .card-details h3 {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   color: #071c4d;
 }

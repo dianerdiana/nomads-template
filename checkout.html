@@ -55,12 +55,12 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-8 pl-lg-0 mb-md-2">
+            <div class="col-lg-8 pl-lg-0 mb-2">
               <div class="card card-details">
                 <h1>Who is going?</h1>
                 <p>Trip to Ubud, Bali, Indonesia</p>
-                <div class="attendance">
-                  <table class="table table-responsive-sm text-center">
+                <div class="attendance table-responsive-sm">
+                  <table class="table text-center">
                     <thead>
                       <tr>
                         <td>Picture</td>
@@ -112,7 +112,7 @@
                 <div class="member mt-3">
                   <h2>Add Member</h2>
                   <form action="" class="row">
-                    <div class="col">
+                    <div class="col-lg-3 col-sm-12">
                       <label for="inputUsername" class="visually-hidden">
                         Name
                       </label>
@@ -125,7 +125,7 @@
                       />
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-lg-2 col-sm-12">
                       <label for="inputVisa" class="visually-hidden"
                         >Visa</label
                       >
@@ -140,7 +140,7 @@
                       </select>
                     </div>
 
-                    <div class="col">
+                    <div class="col-lg-4 col-sm-12">
                       <label for="doePassport" class="visually-hidden">
                         DOE Passport
                       </label>
@@ -155,7 +155,7 @@
                       </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col-lg-3 col-sm-12">
                       <button class="btn btn-add-now mb-2 px-4">Add Now</button>
                     </div>
                   </form>
@@ -170,28 +170,35 @@
             </div>
             <div class="col-lg-4">
               <div class="card card-details card-right">
-                <h2>Trip Informations</h2>
-                <table class="trip-informations">
+                <h2>Checkout Informations</h2>
+                <table class="checkout-informations">
                   <tr>
-                    <th width="50%" class="thead">Date of Departure</th>
-                    <td width="50%" class="text-end tcell">22 Aug, 2019</td>
+                    <th width="50%" class="thead">Members</th>
+                    <td width="50%" class="text-end tcell">2 person</td>
                   </tr>
                   <tr>
-                    <th width="50%" class="thead">Durations</th>
-                    <td width="50%" class="text-end tcell">4D 3N</td>
+                    <th width="50%" class="thead">Additional Visa</th>
+                    <td width="50%" class="text-end tcell">$ 190,00</td>
                   </tr>
                   <tr>
-                    <th width="50%" class="thead">Type</th>
-                    <td width="50%" class="text-end tcell">Open Trip</td>
+                    <th width="50%" class="thead">Trip Price</th>
+                    <td width="50%" class="text-end tcell">$ 80,00 / person</td>
                   </tr>
                   <tr>
-                    <th width="50%" class="thead">Price</th>
-                    <td width="50%" class="text-end tcell">$80.00 / person</td>
+                    <th width="50%" class="thead">Sub Total</th>
+                    <td width="50%" class="text-end tcell">$ 280,00</td>
+                  </tr>
+                  <tr>
+                    <th width="50%" class="thead">Total (+Unique)</th>
+                    <td width="50%" class="text-end tcell text-total">
+                      <span class="text-blue">$279,</span>
+                      <span class="text-orange">33</span>
+                    </td>
                   </tr>
                 </table>
                 <hr />
                 <h2>Payment Instructions</h2>
-                <p>
+                <p class="payment-instructions">
                   Please complete your payment before to continue the wonderful
                   trip.
                 </p>
@@ -202,13 +209,41 @@
                       alt=""
                       class="bank-image"
                     />
+                    <div class="description">
+                      <h3>PT Nomads ID</h3>
+                      <p>
+                        0883 9889 7887
+                        <br />
+                        Bank Central Asia
+                      </p>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="bank-item pb-3">
+                    <img
+                      src="./frontend/assets/icons/ic_bank.png"
+                      alt=""
+                      class="bank-image"
+                    />
+                    <div class="description">
+                      <h3>PT Nomads ID</h3>
+                      <p>
+                        0898 7887 5689
+                        <br />
+                        Bank HSBC
+                      </p>
+                    </div>
+                    <div class="clearfix"></div>
                   </div>
                 </div>
               </div>
               <div class="join-container d-grid gap-2">
                 <a href="#" class="btn btn-block btn-join-now mt-3 py-2">
-                  Join Now
+                  I Have Made Payment
                 </a>
+              </div>
+              <div class="text-center mt-3">
+                <a href="#" class="text-muted">Cancel Booking</a>
               </div>
             </div>
           </div>
