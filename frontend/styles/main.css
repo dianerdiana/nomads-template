@@ -4,13 +4,6 @@ body {
   color: #071c4d;
 }
 
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
 .navbar-brand img {
   max-height: 40px;
 }
@@ -237,6 +230,12 @@ header .btn-get-started:hover {
   font-weight: bold;
   color: #071c4d;
 }
+.section-details-contents .btn-cancel a {
+  text-decoration: none;
+}
+.section-details-contents .btn-cancel a:hover {
+  text-decoration: underline;
+}
 
 .card-details {
   padding: 30px;
@@ -384,5 +383,28 @@ header .btn-get-started:hover {
 }
 .join-container .btn-join-now:hover {
   background-color: #ffb67f;
+  color: #ffffff;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071c4d;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071c4d;
+  color: #ffffff;
+}
+.section-success .btn-home-page:hover {
+  background-color: #162b5c;
   color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
